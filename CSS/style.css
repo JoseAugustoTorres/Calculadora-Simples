@@ -1,0 +1,65 @@
+/* TODO: 
+    mudar px para vh - height / vw - width
+*/
+
+html, body {
+    margin: 0;
+    height:100%;
+    width:100%;
+    padding:0;
+    background-color: rgb(58, 58, 58);
+    font-family: 'Sono', sans-serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#calculadora{
+    border: 10px solid rgb(4, 122, 113);
+    border-radius: 3%;
+    padding: 10px;
+    display: block;
+    height: auto;
+    width: auto;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#tela-calculadora{   
+    text-align: right;
+    border: 3px solid black;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+#bloco-botoes-calculadora{
+    border: 2px solid black;    
+}
+
+.linha-botoes{
+    font-size: 0;
+}
+
+.botoes{
+    height: 90px;
+    width: 90px;
+    font-size: 40px;
+    background-color: rgb(153, 153, 149);
+    border-radius: 6%;
+    margin: 5px;
+}
+
+.botoes:hover{
+    background-color: rgb(248, 171, 71);
+}
+
+.botoes:active{
+    background-color: red;
+
+}

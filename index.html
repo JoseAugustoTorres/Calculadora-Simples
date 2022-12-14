@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./JavaScript/script.js"></script>
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <title>Calculadora Simples</title>
+  </head>
+  <body>
+    <section>
+      <div id="calculadora">
+        <div id="tela-calculadora">0</div>
+        <div id="bloco-botoes-calculadora">
+          <div class="linha-botoes">
+            <button class="botoes" id="b_7" onclick="valorBotao(this.id)">
+              7
+            </button>
+            <button class="botoes" id="b_8" onclick="valorBotao(this.id)">
+              8
+            </button>
+            <button class="botoes" id="b_9" onclick="valorBotao(this.id)">
+              9
+            </button>
+            <button
+              class="botoes"
+              id="botaoDividir"
+              onclick="valorBotao(this.id)"
+            >
+              &divide
+            </button>
+          </div>
+          <div class="linha-botoes">
+            <button class="botoes" id="b_4" onclick="valorBotao(this.id)">
+              4
+            </button>
+            <button class="botoes" id="b_5" onclick="valorBotao(this.id)">
+              5
+            </button>
+            <button class="botoes" id="b_6" onclick="valorBotao(this.id)">
+              6
+            </button>
+            <button
+              class="botoes"
+              id="botaoMultiplicar"
+              onclick="valorBotao(this.id)"
+            >
+              &times
+            </button>
+          </div>
+
+          <div class="linha-botoes">
+            <button class="botoes" id="b_1" onclick="valorBotao(this.id)">
+              1
+            </button>
+            <button class="botoes" id="b_2" onclick="valorBotao(this.id)">
+              2
+            </button>
+            <button class="botoes" id="b_3" onclick="valorBotao(this.id)">
+              3
+            </button>
+            <button
+              class="botoes"
+              id="botaoSubtrair"
+              onclick="valorBotao(this.id)"
+            >
+              &#8722;
+            </button>
+            <!-- ícone html do - (menos) -->
+          </div>
+          <div class="linha-botoes">
+            <button class="botoes" id="b_0" onclick="valorBotao(this.id)">
+              0
+            </button>
+            <button
+              class="botoes"
+              id="botaoVirgula"
+              onclick="valorBotao(this.id)"
+            >
+              ,
+            </button>
+            <button
+              class="botoes"
+              id="botaoIgual"
+              onclick="valorBotao(this.id)"
+            >
+              =
+            </button>
+            <button class="botoes" id="botaoSoma" onclick="valorBotao(this.id)">
+              &#43;
+            </button>
+            <!-- ícone html do + (mais) -->
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
